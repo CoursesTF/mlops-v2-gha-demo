@@ -26,8 +26,8 @@ variables:
   resource_group: RGForMLOps
   aml_workspace: Azuremlws8899
   application_insights: azuremlws88991472824359
-  key_vault: azuremlws88991472824359
-  container_registry: azuremlws88991472824359
+  key_vault: azuremlws88997041080516
+  container_registry: Azuremlcr8899
   storage_account: azuremlws88993343131398
 
   # For terraform reference

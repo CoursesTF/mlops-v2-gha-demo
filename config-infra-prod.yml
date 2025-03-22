@@ -7,8 +7,8 @@ variables:
   # Global
   ap_vm_image: ubuntu-20.04
 
-  namespace: mlopslite77 #Note: A namespace with many characters will cause storage account creation to fail due to storage account names having a limit of 24 characters.
-  postfix: d
+  namespace: ml49611834 #Note: A namespace with many characters will cause storage account creation to fail due to storage account names having a limit of 24 characters.
+  postfix: c
   location: northcentralus
 
   environment: prod
@@ -23,12 +23,12 @@ variables:
   # DO NOT TOUCH
 
   # For pipeline reference
-  resource_group: RGForMLOps
-  aml_workspace: Azuremlws988998
-  application_insights: azuremlws988995704569462
-  key_vault: azuremlws988990861337451
-  container_registry: Azuremlcr988998
-  storage_account: azuremlws988997294113283
+  resource_group: ResourceGroup1
+  aml_workspace: Azuremlws49611834
+  application_insights: azuremlws496111134654081
+  key_vault: azuremlws496115368325656
+  container_registry: azuremlcr49611834
+  storage_account: azuremlws496118986123494
 
   # For terraform reference
   terraform_version: 0.14.7

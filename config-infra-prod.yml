@@ -7,9 +7,9 @@ variables:
   # Global
   ap_vm_image: ubuntu-20.04
 
-  namespace: ml49611834 #Note: A namespace with many characters will cause storage account creation to fail due to storage account names having a limit of 24 characters.
+  namespace: ml50549298 #Note: A namespace with many characters will cause storage account creation to fail due to storage account names having a limit of 24 characters.
   postfix: c
-  location: northcentralus
+  location: eastus
 
   environment: prod
   enable_aml_computecluster: true
